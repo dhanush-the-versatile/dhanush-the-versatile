@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610">
+<defs>
+<linearGradient id="bg" x1="0" x2="1">
+<stop offset="0%" stop-color="#030712"/>
+<stop offset="100%" stop-color="#0F172A"/>
+</linearGradient>
+<linearGradient id="acc" x1="0" x2="1">
+<stop offset="0%" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="8s" repeatCount="indefinite"/></stop>
+<stop offset="100%" stop-color="#22D3EE"/>
+</linearGradient>
+<filter id="g"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="1180" height="610" rx="24" fill="url(#bg)"/>
+<circle cx="180" cy="140" r="120" fill="#22D3EE" opacity=".08" filter="url(#g)">
+<animate attributeName="cx" values="160;220;160" dur="10s" repeatCount="indefinite"/>
+</circle>
+<rect x="40" y="40" width="390" height="530" rx="20" fill="#08101f" stroke="rgba(255,255,255,.08)"/>
+<text x="70" y="90" font-family="monospace" font-size="15" fill="url(#acc)">
+<tspan x="70" dy="0">      .----.</tspan>
+<tspan x="70" dy="18">    .' .-.  )</tspan>
+<tspan x="70" dy="18">   / .'  / /</tspan>
+<tspan x="70" dy="18">  (_/   / /</tspan>
+<tspan x="70" dy="18">       / /</tspan>
+<tspan x="70" dy="18">      / /</tspan>
+<tspan x="70" dy="18">     /_/</tspan>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite"/>
+</text>
+
+<rect x="460" y="40" width="680" height="530" rx="20" fill="#0F172A" stroke="#334155"/>
+<text x="490" y="95" fill="#F8FAFC" font-family="monospace" font-size="26">Hi 👋</text>
+<text x="490" y="135" fill="url(#acc)" font-family="sans-serif" font-weight="700" font-size="38">Amara Dhanush Kumar</text>
+<text x="490" y="175" fill="#22D3EE" font-family="monospace" font-size="22">
+<tspan>AI Engineer</tspan>
+<animate attributeName="opacity" values="1;1;0;0;1" dur="6s" repeatCount="indefinite"/>
+</text>
+<g fill="#94A3B8" font-family="sans-serif" font-size="18">
+<text x="490" y="225">📍 Andhra Pradesh, India</text>
+<text x="490" y="255">🎓 B.Tech CSE • LIET</text>
+<text x="490" y="285">💼 AI • Full Stack • Cloud • OSS</text>
+<text x="490" y="315">🌐 amaradhanushkumar.online</text>
+</g>
+<g font-family="sans-serif" font-size="15">
+<rect x="490" y="350" rx="12" ry="12" width="60" height="28" fill="#162033" stroke="#22D3EE"/><text x="500" y="369" fill="#F8FAFC">Python</text>
+<rect x="560" y="350" rx="12" ry="12" width="44" height="28" fill="#162033" stroke="#22D3EE"/><text x="570" y="369" fill="#F8FAFC">Java</text>
+<rect x="614" y="350" rx="12" ry="12" width="92" height="28" fill="#162033" stroke="#22D3EE"/><text x="624" y="369" fill="#F8FAFC">TypeScript</text>
+<rect x="716" y="350" rx="12" ry="12" width="52" height="28" fill="#162033" stroke="#22D3EE"/><text x="726" y="369" fill="#F8FAFC">React</text>
+<rect x="778" y="350" rx="12" ry="12" width="68" height="28" fill="#162033" stroke="#22D3EE"/><text x="788" y="369" fill="#F8FAFC">Next.js</text>
+<rect x="856" y="350" rx="12" ry="12" width="68" height="28" fill="#162033" stroke="#22D3EE"/><text x="866" y="369" fill="#F8FAFC">Node.js</text>
+<rect x="934" y="350" rx="12" ry="12" width="68" height="28" fill="#162033" stroke="#22D3EE"/><text x="944" y="369" fill="#F8FAFC">Express</text>
+<rect x="1012" y="350" rx="12" ry="12" width="76" height="28" fill="#162033" stroke="#22D3EE"/><text x="1022" y="369" fill="#F8FAFC">Tailwind</text>
+<rect x="490" y="390" rx="12" ry="12" width="92" height="28" fill="#162033" stroke="#22D3EE"/><text x="500" y="409" fill="#F8FAFC">PostgreSQL</text>
+<rect x="592" y="390" rx="12" ry="12" width="60" height="28" fill="#162033" stroke="#22D3EE"/><text x="602" y="409" fill="#F8FAFC">Docker</text>
+<rect x="662" y="390" rx="12" ry="12" width="36" height="28" fill="#162033" stroke="#22D3EE"/><text x="672" y="409" fill="#F8FAFC">AWS</text>
+<rect x="708" y="390" rx="12" ry="12" width="36" height="28" fill="#162033" stroke="#22D3EE"/><text x="718" y="409" fill="#F8FAFC">Git</text>
+<rect x="754" y="390" rx="12" ry="12" width="92" height="28" fill="#162033" stroke="#22D3EE"/><text x="764" y="409" fill="#F8FAFC">TensorFlow</text>
+<rect x="856" y="390" rx="12" ry="12" width="52" height="28" fill="#162033" stroke="#22D3EE"/><text x="866" y="409" fill="#F8FAFC">Linux</text>
+
+</g>
+<text x="490" y="515" fill="#F8FAFC" font-family="sans-serif">IEEE Chair • Founder @ Qyverix • Lendi Radio Club President</text>
+</svg>
